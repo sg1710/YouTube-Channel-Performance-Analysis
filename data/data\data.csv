@@ -1,1 +1,31 @@
+📁 Dataset Description
+This project uses two structured datasets extracted from the Chef Prateek’s Kitchen YouTube channel. These datasets are used for performance analysis, visualizations, and generating insights for content optimization.
+
+🎥 videos.csv — Full-Length Videos
+Contains metadata and performance metrics for all long-form videos posted on the channel.
+
+Column Name	Description
+video_id	Unique identifier of the video
+title	Title of the YouTube video
+published_date	Date and time the video was published
+duration	Length of the video (in seconds/minutes)
+views	Total number of views
+likes	Total number of likes
+comments	Total number of comments
+tags	Tags or keywords used in the video
+category	The content type/category (e.g., Street Food, Recipe, Vlog)
+
+🎞️ shorts.csv — YouTube Shorts
+Contains similar metrics but focused on short-form videos (under 60 seconds).
+
+Column Name	Description
+short_id	Unique identifier of the Short
+title	Title or caption of the Short
+published_date	Date and time of upload
+duration	Length of the Short (in seconds)
+views	Total number of views
+likes	Total number of likes
+comments	Total number of comments
+tags	Hashtags or keywords used
+short_type	Format (e.g., Recipe Demo, Behind-the-scenes, Ingredient Tip)
 
