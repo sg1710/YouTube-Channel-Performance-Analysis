@@ -17,7 +17,7 @@ o	Tag and audio insights for Shorts
 🛠 Tools Used
 
 •	Power BI Desktop
-•	YouTube Data API (data source)
+•	YouTube Data
 •	Python (for preprocessing)
 
 📁 How to Use
